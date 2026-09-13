@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relic Run — Puzzle Expedition</title>
+<meta name="description" content="A directional tile puzzle wrapped in a treasure expedition. Clear the path, open the vault, and restore a lost museum one relic at a time.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pacificfrontdesk.github.io/relic-run/">
+<meta property="og:title" content="Relic Run — Puzzle Expedition">
+<meta property="og:description" content="Clear the path, open the vault, restore a lost museum. A logic puzzle wrapped in a treasure expedition.">
+<meta property="og:image" content="https://pacificfrontdesk.github.io/relic-run/img/icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/icon.png">
+<style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0 auto; padding: 48px 24px 96px; max-width: 46rem;
+      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #23201B; background: #F2EBDC;
+    }
+    h1 { font-size: 1.9rem; letter-spacing: -0.01em; margin: 0 0 0.25rem; }
+    h2 { font-size: 1.15rem; margin: 2.4rem 0 0.6rem; }
+    .sub { color: #6E6558; margin: 0 0 2.5rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    a { color: #1677E8; }
+    footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid #D8CDBA; color: #6E6558; font-size: 0.92rem; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #E4DFD4; background: #0D1417; }
+      .sub, footer { color: #8A9490; }
+      footer { border-top-color: #26312F; }
+      a { color: #45D9B4; }
+    }
+    .hero { display: flex; align-items: center; gap: 20px; margin-bottom: 1.8rem; }
+    .icon { width: 96px; height: 96px; border-radius: 22%; flex: 0 0 auto;
+            box-shadow: 0 4px 14px rgba(20, 26, 24, 0.22); }
+    h1 { margin: 0; }
+    .hero .sub { margin: 0.1rem 0 0; }
+    .tagline { font-size: 1.3rem; font-weight: 650; margin: 0 0 0.5rem; }
+    .cta { display: inline-block; margin: 1.1rem 0 0.4rem; padding: 12px 24px; border-radius: 999px;
+           background: #23201B; color: #F2EBDC; font-weight: 600; text-decoration: none; }
+    /* Nothing to tap until the app is live, so it reads as a label, not a button. */
+    .cta.soon { background: transparent; color: #6E6558; border: 1.5px solid #D8CDBA; cursor: default; }
+    @media (prefers-color-scheme: dark) {
+      .cta { background: #E4DFD4; color: #0D1417; }
+      .cta.soon { background: transparent; color: #8A9490; border-color: #26312F; }
+    }
+</style>
+</head>
+<body>
+<div class="hero">
+  <img class="icon" src="img/icon.png" width="96" height="96" alt="Relic Run app icon: a gold funerary mask with jade eyes above three carved stone arrow tiles">
+  <div>
+    <h1>Relic Run</h1>
+    <p class="sub">Puzzle Expedition · Oleg Nochka</p>
+  </div>
+</div>
+
+<p class="tagline">Clear the path. Open the vault.</p>
+<p>Every tile on the board carries an arrow, and a tile can only leave when every cell between it
+and the edge is empty. Work out the order, clear the board, and the vault opens. What you carry
+out of it rebuilds a museum that starts as a ruin.</p>
+<span class="cta soon">Coming soon to the App Store</span>
+<p class="sub">For iPhone and iPad</p>
+
+<h2>How it plays</h2>
+<p>Tap a tile whose path to the edge is clear and it slides off, which opens the way for the next
+one. Cracked tiles carry a counter that ticks down with every move, so the order stops being a
+convenience and starts being the puzzle. Stones never move, locked tiles wait for a key, and
+nothing is ever hidden from you — every board can be read.</p>
+
+<h2>The expedition</h2>
+<p>Four vaults make an expedition. Before each one you choose a safe route or a timed vault that
+pays three times as much and collapses if the clock beats you. Deeper vaults pay more, so the
+choice gets heavier the further in you are. Coins bank when the expedition ends; relic fragments
+always make it out, even from a collapse.</p>
+
+<h2>What you are collecting</h2>
+<ul>
+  <li>Thirty relics in five collections, found three fragments at a time</li>
+  <li>A museum of five rooms that goes from abandoned to grand as you restore it</li>
+  <li>A base camp that grows from a bivouac to an expedition lodge</li>
+  <li>A hundred levels across five regions, from jungle temples to a sealed sanctuary</li>
+  <li>A daily vault at the campfire, with a streak worth keeping</li>
+</ul>
+
+<h2>Difficulty that meets you</h2>
+<p>Boards quietly adapt to how you are doing, on your device, with no account and no server
+involved. If you are struggling they give you more room; if you are cruising they tighten up.
+You can also set it yourself: Relaxed, Normal or Expert. Levels and rewards never change, only
+how forgiving the board is.</p>
+
+<h2>Help and policies</h2>
+<ul>
+  <li><a href="./support.html">Support</a> — common questions, and how to reach us</li>
+  <li><a href="./privacy.html">Privacy Policy</a></li>
+  <li><a href="./terms.html">Terms of Use</a></li>
+</ul>
+<footer>
+  Relic Run is made by Oleg Nochka. &copy; 2026 Oleg Nochka.<br>
+  <a href="./">Home</a> · <a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a> · <a href="./support.html">Support</a>
+</footer>
+</body>
+</html>
