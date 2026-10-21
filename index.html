@@ -37,8 +37,9 @@
     .hero h1 { margin: 0; }
     .hero .sub { margin: 0.1rem 0 0; }
     .tagline { font-size: 1.3rem; font-weight: 650; margin: 0 0 0.5rem; }
-    .cta { display: inline-block; margin: 1.1rem 0 0.4rem; padding: 12px 24px; border-radius: 999px;
-           background: #23201B; color: #F2EBDC; font-weight: 600; text-decoration: none; }
+    /* Apple's official badge, unmodified, at least 40 px tall with clear space around it. */
+    .badge { display: inline-block; margin: 1.2rem 0 0.5rem; line-height: 0; }
+    .badge img { height: 50px; width: auto; }
     .shots { display: flex; gap: 12px; overflow-x: auto; padding: 4px 0 12px; margin: 1.6rem 0 0;
              scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
     .shots img { width: 180px; height: auto; aspect-ratio: 540 / 1174; border-radius: 16px; flex: 0 0 auto;
@@ -48,7 +49,6 @@
       .sub, footer { color: #8A9490; }
       footer, th, td { border-color: #26312F; }
       a { color: #45D9B4; }
-      .cta { background: #E4DFD4; color: #0D1417; }
     }
 </style>
 </head>
@@ -65,7 +65,7 @@
 <p>Every tile on the board carries an arrow, and a tile can only leave when every cell between it
 and the edge is empty. Work out the order, clear the board, and the vault opens. What you carry
 out of it rebuilds a museum that starts as a ruin.</p>
-<a class="cta" href="https://apps.apple.com/app/id6811707026">Download on the App Store</a>
+<a class="badge" href="https://apps.apple.com/app/id6811707026"><img src="img/app-store-badge.svg" width="150" height="50" alt="Download on the App Store"></a>
 <p class="sub">Free, for iPhone. No ads.</p>
 
 <div class="shots" aria-label="Screenshots">
